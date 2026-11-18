@@ -3,7 +3,7 @@ pipeline {
 
     parameters {
         booleanParam(name: 'DEPLOY_PROD', defaultValue: false,
-                     description: 'Bifează pentru deploy în producție')
+                     description: 'Bifează pentru deploy în producție!!!')
     }
 
     stages {
