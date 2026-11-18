@@ -50,6 +50,6 @@ pipeline {
     post {
         success { echo 'Pipeline reușit!' }
         failure { echo 'Pipeline eșuat!' }
-        always  { echo 'Curăț workspace-ul' }
+        always  { echo 'Curăț workspace-ul!' }
     }
 }
